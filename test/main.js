@@ -29,10 +29,19 @@ describe('sleepsort', function() {
 		});
 	});
 
-	describe('with an unsorted two element array', function() {
-		it('calls the callback with a sorted version of the array', function(done) {
+	describe('with [2, 1]', function() {
+		it('calls the callback with [1, 2]', function(done) {
 			var result = sleepsort([2, 1], function(result) {
 				result.should.eql([1, 2]);
+				done();
+			});
+		});
+	});
+
+	describe('with [\'4\', \'3\', \'2\']', function() {
+		it('calls the callback with [\'2\', \'3\', \'4\']', function(done) {
+			var result = sleepsort(['4', '3', '2'], function(result) {
+				result.should.eql(['2', '3', '4']);
 				done();
 			});
 		});
