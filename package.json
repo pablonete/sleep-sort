@@ -1,0 +1,31 @@
+{
+  "name": "sleep-sort",
+  "version": "0.0.1",
+  "description": "Implementation of the sleep-sort algorithm",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablonete/sleep-sort.git"
+  },
+  "keywords": [
+    "node",
+    "mocha",
+    "module",
+    "git",
+    "training"
+  ],
+  "author": "Pablo Nunez (Anders Janmyr)",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "gitHead": "c47a03139c9d1f72723893f8f412c26f923b6177",
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  }
+}
