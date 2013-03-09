@@ -9,6 +9,9 @@
   "scripts": {
     "test": "mocha test/*.js"
   },
+  "bin": { 
+    "sleep-sort": "./bin/sleep-sort" 
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pablonete/sleep-sort.git"
